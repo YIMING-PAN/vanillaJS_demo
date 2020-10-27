@@ -3,7 +3,10 @@ var degree = 1800;
 //number of clicks = 0
 var clicks = 0;
 
-var faces = ["/images/face/face_1.png", "/images/face/face_2.png"];
+var faces = [
+  "https://raw.githubusercontent.com/YIMING-PAN/LuckyCharm/master/images/face/face_1.png",
+  "https://raw.githubusercontent.com/YIMING-PAN/LuckyCharm/master/images/face/face_2.png",
+];
 
 $(document).ready(function () {
   /*WHEEL SPIN FUNCTION*/
